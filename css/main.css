@@ -1,16 +1,17 @@
 body {
-    margin: 60px auto;
+    margin: 400px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+    font-family: 'Times New Roman', Times, Serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 200px;
 }
 a {
     text-decoration: none;
@@ -19,12 +20,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+head {
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, Serif;
+
 }
 p {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1.4em;
     color: #333;
 }
@@ -33,11 +35,43 @@ footer {
     font-size: .8em;
 }
 
+
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 200px auto 400px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
