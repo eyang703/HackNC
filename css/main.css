@@ -1,17 +1,16 @@
 body {
-    margin: 400px auto;
+    margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-
-    font-family: 'Times New Roman', Times, Serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 200px;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
@@ -22,7 +21,7 @@ a:hover {
 }
 head {
     font-size: 5em;
-    font-family: 'Times New Roman', Times, Serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 
 }
 p {
@@ -37,7 +36,7 @@ footer {
 
 
 ul.posts { 
-    margin: 200px auto 400px;
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
